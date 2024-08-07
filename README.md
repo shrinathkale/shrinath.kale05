@@ -13,3 +13,5 @@ Python Program for Library Management System
 Python Program for Merging of Pdf
 
 Python Program for Text to Speech Transmission
+
+Python Program for News API
