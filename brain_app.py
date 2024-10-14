@@ -1,5 +1,4 @@
 import tensorflow as tf
-import cv2
 import streamlit as st
 
 st.markdown("<h1 style='color: lightgreen;'>BRAIN TUMOR PREDICTION SYSTEM ON THE MRI SCAN</h1>", unsafe_allow_html=True)
@@ -61,6 +60,7 @@ if(st.button("Show image")):
         st.markdown("<medium style='color: orange;'>Image Not Uploaded</h1>", unsafe_allow_html=True)
 if(st.button("Predict")):
     if image is not None:
+        st.write("The Prediction is.....")
         predict(image)
     else:
         st.markdown("<medium style='color: orange;'>Image Not Uploaded</h1>", unsafe_allow_html=True)
