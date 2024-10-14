@@ -2,7 +2,7 @@ import tensorflow as tf
 import streamlit as st
 
 st.markdown("<h1 style='color: lightgreen;'>BRAIN TUMOR PREDICTION SYSTEM ON THE MRI SCAN</h1>", unsafe_allow_html=True)
-
+st.write("Key Points for Using App are Given in the Sidebar")
 img1_path = "image1.jpeg"
 img2_path = "image2.jpeg"
 st.image(img1_path)
