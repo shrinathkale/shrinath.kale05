@@ -5,6 +5,6 @@ scikit-learn
 matplotlib
 seaborn
 opencv-python
-PIL
+pillow
 tqdm
 tensorflow
