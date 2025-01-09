@@ -11,6 +11,7 @@ st.sidebar.image(img2_path)
 st.sidebar.markdown('''
             ##   **KEY POINTS**
             ###  * Upload the Photograph of MRI Scan of Brain and Press on the Show Image Button for getting Uploaded Image
+            ###  * Crop only necessary image part
             ###  * Upload the image in the JPG/JPEG/PNG Format
             ###  * Limit of the image uploading is 200MB
             ###  * Press on the Predict Button Which Shows the Graph of Brain Tumor Prediction Based on the MRI Scan
